@@ -32,7 +32,7 @@ const Footer = () => {
     },
     {
       id: 6,
-      day: "Sunday",
+      day: "Saturday",
       time: "9:00 AM - 3:00 PM",
     },
   ];
