@@ -1,6 +1,6 @@
 import React from "react";
 
-const Biography = ({imageUrl}) => {
+const Biography = ({ imageUrl }) => {
   return (
     <>
       <div className="container biography">
@@ -11,26 +11,17 @@ const Biography = ({imageUrl}) => {
           <p>Biography</p>
           <h3>Who We Are</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            blanditiis sequi aperiam. Debitis fugiat harum ex maxime illo
-            consequatur mollitia voluptatem omnis nihil nesciunt beatae esse
-            ipsam, sapiente totam aspernatur porro ducimus aperiam nisi. Ex
-            magnam voluptatum consectetur reprehenderit fugiat recusandae aut
-            similique illum natus velit, praesentium nostrum nesciunt. Deleniti,
-            nesciunt laboriosam totam iusto!
+            BuddyCare Hospital is a multi-specialty healthcare center dedicated to delivering exceptional medical services with compassion and care. Established with the vision of making quality healthcare accessible to all, we are committed to combining modern technology with a patient-centric approach to healing.
           </p>
-          <p>We are all in 2024!</p>
-          <p>We are working on a MERN STACK PROJECT.</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            assumenda exercitationem accusamus sit repellendus quo optio dolorum
-            corporis corrupti. Quas similique vel minima veniam tenetur
-            obcaecati atque magni suscipit laboriosam! Veniam vitae minus nihil
-            cupiditate natus provident. Ex illum quasi pariatur odit nisi
-            voluptas illo qui ipsum mollitia. Libero, assumenda?
+            Our team of highly qualified doctors, skilled nurses, and experienced healthcare professionals work tirelessly to ensure that every patient receives personalized attention and the highest standards of treatment. At BuddyCare, we believe in not only treating illnesses but also promoting wellness and preventive care.
           </p>
-          <p>Lorem ipsum dolor sit amet!</p>
-          <p>Coding is fun!</p>
+          <p>
+            With state-of-the-art infrastructure, advanced diagnostic tools, and world-class medical facilities, we cater to a wide range of specialties including cardiology, orthopedics, pediatrics, oncology, neurology, and more. Our emergency care services are available 24/7 to handle urgent medical needs with speed and efficiency.
+          </p>
+          <p>
+            We are more than just a hospital — we are a community that prioritizes health, hope, and humanity. At BuddyCare, your well-being is our top priority.
+          </p>
         </div>
       </div>
     </>

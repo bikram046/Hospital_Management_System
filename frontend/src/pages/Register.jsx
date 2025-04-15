@@ -24,7 +24,7 @@ const Register = () => {
       await axios
         .post(
           "http://localhost:4000/api/v1/user/patient/register",
-          { firstName, lastName, email, phone, aadhar, dob, gender, password, role:"Patient" },
+          { firstName, lastName, email, phone, aadhar, dob, gender, password, role: "Patient" },
           {
             withCredentials: true,
             headers: { "Content-Type": "application/json" },
@@ -58,8 +58,8 @@ const Register = () => {
         <h2>Sign Up</h2>
         <p>Please Sign Up To Continue</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa
-          voluptas expedita itaque ex, totam ad quod error?
+          Join BuddyCare Hospital and take control of your health journey.
+          Register now to book appointments and receive personalized care at your fingertips.
         </p>
         <form onSubmit={handleRegistration}>
           <div>

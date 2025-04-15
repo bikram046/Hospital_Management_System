@@ -48,8 +48,8 @@ const Login = () => {
         <h2>Sign In</h2>
         <p>Please Login To Continue</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa
-          voluptas expedita itaque ex, totam ad quod error?
+          Welcome to BuddyCare Hospital – your trusted partner in health and wellness.
+          Please log in to book appointments.
         </p>
         <form onSubmit={handleLogin}>
           <input

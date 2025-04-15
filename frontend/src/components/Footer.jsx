@@ -27,12 +27,12 @@ const Footer = () => {
     },
     {
       id: 5,
-      day: "Monday",
+      day: "Friday",
       time: "3:00 PM - 9:00 PM",
     },
     {
       id: 6,
-      day: "Saturday",
+      day: "Sunday",
       time: "9:00 AM - 3:00 PM",
     },
   ];
@@ -43,7 +43,7 @@ const Footer = () => {
         <hr />
         <div className="content">
           <div>
-            <img src="/logo.png" alt="logo" className="logo-img"/>
+            <img src="/logo1.png" alt="logo" className="logo-img"/>
           </div>
           <div>
             <h4>Quick Links</h4>
@@ -68,15 +68,15 @@ const Footer = () => {
             <h4>Contact</h4>
             <div>
               <FaPhone />
-              <span>999-999-9999</span>
+              <span>9056215877</span>
             </div>
             <div>
               <MdEmail />
-              <span>zeelab@gmail.com</span>
+              <span>buddy04@gmail.com</span>
             </div>
             <div>
               <FaLocationArrow />
-              <span>Karachi, Pakistan</span>
+              <span>Chandigarh, India</span>
             </div>
           </div>
         </div>
