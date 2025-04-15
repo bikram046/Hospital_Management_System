@@ -64,9 +64,7 @@ const Dashboard = () => {
                 </h5>
               </div>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facilis, nam molestias. Eaque molestiae ipsam commodi neque.
-                Assumenda repellendus necessitatibus itaque.
+                Welcome to your Admin Dashboard! Here you can monitor appointments, manage doctor registrations, and ensure smooth healthcare services for your patients.
               </p>
             </div>
           </div>
