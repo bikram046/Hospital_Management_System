@@ -1,13 +1,16 @@
 export const generateToken = (user, message, statusCode, res) => {
-  const token = user.getJWTToken(); // Assuming this generates JWT
+  const token = user.generateJsonWebToken();
+  const cookieName = user.role === 'Admin' ? 'adminToken' : 'patientToken';
 
   res
     .status(statusCode)
-    .cookie("token", token, {
+    .cookie(cookieName, token, {
+      expires: new Date(
+        Date.now() + process.env.COOKIE_EXPIRE * 24 * 60 * 60 * 1000
+      ),
       httpOnly: true,
-      secure: true,            // ✅ Required for cross-site
-      sameSite: "None",        // ✅ Required for cross-site
-      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+      secure: process.env.NODE_ENV === "production", // only send over HTTPS
+      sameSite: "none",                             // allow cross-site cookie
     })
     .json({
       success: true,
