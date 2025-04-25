@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import validator from "validator";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs"; 
 import jwt from "jsonwebtoken";
 
 const userSchema = new mongoose.Schema({
@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema({
   },
   aadhar: {
     type: String,
-    required: [true, "aadhar Is Required!"],
+    required: [true, "AADHAR Is Required!"],
     minLength: [12, "AADHAR Must Contain Only 12 Digits!"],
     maxLength: [12, "AADHAR Must Contain Only 12 Digits!"],
   },
@@ -51,7 +51,7 @@ const userSchema = new mongoose.Schema({
     required: [true, "User Role Required!"],
     enum: ["Patient", "Doctor", "Admin"],
   },
-  doctorDepartment:{
+  doctorDepartment: {
     type: String,
   },
   docAvatar: {
