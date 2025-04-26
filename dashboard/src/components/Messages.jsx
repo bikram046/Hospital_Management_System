@@ -11,7 +11,7 @@ const Messages = () => {
     const fetchMessages = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:5173/api/v1/message/getall",
+          "http://localhost:5174/api/v1/message/getall",
           { withCredentials: true }
         );
         setMessages(data.messages);
