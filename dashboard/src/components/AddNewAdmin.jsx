@@ -23,7 +23,7 @@ const AddNewAdmin = () => {
     try {
       await axios
         .post(
-          "https://hospital-management-system-8kkw.onrender.com/api/v1/user/admin/addnew",
+          "http://localhost:5174/api/v1/user/admin/addnew",
           { firstName, lastName, email, phone, aadhar, dob, gender, password },
           {
             withCredentials: true,
